@@ -1,0 +1,37 @@
+#header{
+    position: relative;
+    .slider_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        left: 250px;
+        bottom: 350px;
+        .text_name{
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 65px;
+            text-align: start;
+            font-weight: 800;
+            color: black;
+            margin-bottom: 20px;
+        }
+        button{
+            width: 150px;
+            height: 45px;
+            border-radius: 17px;
+            border: none;
+            background-color: #717fe0;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 400ms;
+            &:hover{
+                background-color: black;
+            }
+        }
+    }
+}
